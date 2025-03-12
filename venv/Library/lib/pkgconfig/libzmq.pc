@@ -1,0 +1,12 @@
+prefix=c:/Users/Enigma/OneDrive/Documents/GitHub/Insurance-Claim-Sevearity-Prediction/venv/Library
+exec_prefix=c:/Users/Enigma/OneDrive/Documents/GitHub/Insurance-Claim-Sevearity-Prediction/venv/Library
+libdir=c:/Users/Enigma/OneDrive/Documents/GitHub/Insurance-Claim-Sevearity-Prediction/venv/Library/lib
+includedir=c:/Users/Enigma/OneDrive/Documents/GitHub/Insurance-Claim-Sevearity-Prediction/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
